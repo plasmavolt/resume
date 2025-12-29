@@ -1,0 +1,10 @@
+[project]
+name = "resume"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "rendercv[full]",
+]
+
+[tool.uv]
+# optional: you can add tool config here

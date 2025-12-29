@@ -1,0 +1,10 @@
+# python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# rendercv output 
+rendercv_output/
+*.pdf
+*.png
+*.svg
