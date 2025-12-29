@@ -1,0 +1,103 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Frank Lin
+  location: New York, NY
+  email: fyl2049@nyu.edu
+  phone: "+1 (949) 981-8760"
+  social_networks:
+    - network: LinkedIn
+      username: franktbh
+
+  sections:
+    education:
+      - institution: New York University
+        location: New York, NY
+        area: Mathematics & Computer Science
+        degree: B.A.
+        start_date: 2025-08
+        end_date: 2028-05
+        highlights:
+          - "GPA: 3.75/4.00"
+
+      - institution: Sage Hill School
+        location: Newport Coast, CA
+        area: ""
+        degree: ""
+        start_date: 2021-08
+        end_date: 2025-06
+        highlights:
+          - "GPA: 3.96/4.00"
+
+    experience:
+      - company: Tech@NYU
+        position: Dev Team Lead
+        location: New York, NY
+        start_date: 2025
+        end_date: present
+        highlights: []
+
+      - company: Schoolhouse.world
+        position: Volunteer SAT Tutor
+        location: Remote
+        start_date: 2023
+        end_date: present
+        highlights:
+          - "Tutored SAT Reading/Writing to 28 learners worldwide; ranked in top 10% of tutoring hours"
+          - "Designed tailored lessons and assessments aligned to learner performance needs"
+          - "Received 120+ positive learner ratings, demonstrating effectiveness and clarity"
+
+      - company: FIRST Robotics Competition — Sage Hill
+        position: Software Officer
+        location: Newport Coast, CA
+        start_date: 2022
+        end_date: 2024
+        highlights:
+          - "Programmed intake subsystem and autonomous navigation paths to improve scoring reliability"
+          - "Onboarded and trained 8 new members in Java, OOP, and debugging workflows"
+
+      - company: Sage Hill Math Field Day
+        position: Key Volunteer
+        location: Newport Coast, CA
+        start_date: 2023
+        end_date: 2024
+        highlights:
+          - "Co-authored 3 mathematics competition exams and designed engineering challenge problems"
+          - "Coordinated 20+ volunteers and managed logistics for 167 middle school participants"
+          - "Streamlined event operations under budget and scheduling constraints"
+
+      - company: Sage Hill Boys’ JV Tennis
+        position: "Captain, #1 Doubles"
+        location: Newport Coast, CA
+        start_date: 2021
+        end_date: 2024
+        highlights:
+          - "Captained team of 14, organizing lineups, off-season practices, and bonding events"
+          - "Mediated conflicts to foster collaboration and sportsmanship"
+
+    awards:
+      - name: National Merit Scholarship — Finalist
+        location: National
+        date: "2023"
+
+      - name: AP Scholar with Distinction — Awardee
+        location: National
+        date: "2023–2024"
+
+      - name: MTAC Certificate of Merit — Panel Finalist
+        location: State
+        date: "2023"
+
+    Skills & Interests:
+      - label: "Languages"
+        details: "Mandarin (Fluent), Spanish (Proficient), Python, Java, LaTeX"
+      - label: "Interests"
+        details: "piano performance (12yrs classical experience), photography, philosophy, linguistics"
+
+design:
+  theme: sb2nov
+
+locale: 
+  language: english
+
+rendercv_settings:
+  show_page_number: false
