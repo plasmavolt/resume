@@ -4,7 +4,7 @@ __pycache__/
 *.pyc
 
 # rendercv output 
-rendercv_output/
+output/
 *.pdf
 *.png
 *.svg

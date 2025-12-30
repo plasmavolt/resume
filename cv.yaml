@@ -1,4 +1,14 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+settings:
+  current_date: '2025-12-29' 
+  render_command:
+    design: ./design.yaml
+    typst_path: output/NAME_IN_SNAKE_CASE_Resume.typ
+    pdf_path: output/NAME_IN_SNAKE_CASE_Resume.pdf
+    markdown_path: output/NAME_IN_SNAKE_CASE_Resume.md
+    html_path: output/NAME_IN_SNAKE_CASE_Resume.html
+    png_path: output/NAME_IN_SNAKE_CASE_Resume.png
+
 cv:
   name: Frank Lin
   location: New York, NY
@@ -9,26 +19,24 @@ cv:
       username: franktbh
 
   sections:
-    education:
+    Education:
       - institution: New York University
         location: New York, NY
         area: Mathematics & Computer Science
         degree: B.A.
         start_date: 2025-08
         end_date: 2028-05
-        highlights:
-          - "GPA: 3.75/4.00"
+        summary: 'GPA: 3.75/4.00'
 
       - institution: Sage Hill School
         location: Newport Coast, CA
-        area: ""
-        degree: ""
+        area: "Diploma"
+        degree: "High School"
         start_date: 2021-08
         end_date: 2025-06
-        highlights:
-          - "GPA: 3.96/4.00"
+        summary: "GPA: 3.96/4.00"
 
-    experience:
+    Experience:
       - company: Tech@NYU
         position: Dev Team Lead
         location: New York, NY
@@ -42,7 +50,7 @@ cv:
         start_date: 2023
         end_date: present
         highlights:
-          - "Tutored SAT Reading/Writing to 28 learners worldwide; ranked in top 10% of tutoring hours"
+          - "Tutored SAT Reading/Writing to 28 learners worldwide; ranked top 10% in tutoring hours"
           - "Designed tailored lessons and assessments aligned to learner performance needs"
           - "Received 120+ positive learner ratings, demonstrating effectiveness and clarity"
 
@@ -74,30 +82,27 @@ cv:
           - "Captained team of 14, organizing lineups, off-season practices, and bonding events"
           - "Mediated conflicts to foster collaboration and sportsmanship"
 
-    awards:
-      - name: National Merit Scholarship — Finalist
+    Awards:
+      - name: National Merit Scholarship
         location: National
         date: "2023"
+        summary: Finalist
 
-      - name: AP Scholar with Distinction — Awardee
+      - name: AP Scholar with Distinction
         location: National
         date: "2023–2024"
+        summary: Awardee
 
-      - name: MTAC Certificate of Merit — Panel Finalist
+      - name: MTAC Certificate of Merit
         location: State
         date: "2023"
+        summary: Panel Finalist
 
-    Skills & Interests:
+    Technical Skills:
       - label: "Languages"
-        details: "Mandarin (Fluent), Spanish (Proficient), Python, Java, LaTeX"
+        details: "Java, Python, TypeScript, JavaScript, Lua, C++"
       - label: "Interests"
-        details: "piano performance (12yrs classical experience), photography, philosophy, linguistics"
-
-design:
-  theme: sb2nov
+        details: "Piano performance (12yrs classical experience), photography, philosophy, linguistics"
 
 locale: 
   language: english
-
-rendercv_settings:
-  show_page_number: false

@@ -1,0 +1,80 @@
+design:
+  theme: sb2nov
+  typography:
+    font_family:
+      body: New Computer Modern
+      name: New Computer Modern
+      headline: New Computer Modern
+      connections: New Computer Modern
+      section_titles: New Computer Modern
+    font_size:
+      body: 10pt
+      name: 24pt
+      headline: 10pt
+      connections: 10pt
+      section_titles: 1.4em
+    small_caps:
+      name: false
+      headline: false
+      connections: false
+      section_titles: true
+    bold:
+      name: true
+      headline: false
+      connections: false
+      section_titles: false
+
+  colors:
+    name: rgb(0,0,0)
+    connections: rgb(0,0,0)
+    section_titles: rgb(0,0,0)
+    headline: rgb(0,0,0)
+    links: rgb(0,0,0)
+
+  links:
+    underline: true
+    show_external_link_icon: false
+
+  section_titles:
+    type: with_partial_line 
+    line_thickness: 0.5pt
+    space_above: 0.5cm
+    space_below: 0.3cm
+
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 1em
+    space_between_text_based_entries: 0.3em
+    show_time_spans_in: []
+
+  header:
+    space_below_name: 0.5cm
+    space_below_headline: 0.5cm
+    space_below_connections: 0.5cm
+    connections:
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: "|"
+
+  entries:
+    short_second_row: true
+    highlights:
+      bullet: "•"
+      nested_bullet: "◦"
+
+  templates:
+    top_note: ''
+    education_entry:
+      main_column: |
+        **INSTITUTION**
+        *DEGREE AREA*
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: null
+      date_and_location_column: "*LOCATION*\n*DATE*"
+    normal_entry:
+      date_and_location_column: "*LOCATION*\n*DATE*"
+    experience_entry:
+      main_column: "**POSITION**\n*COMPANY*\nSUMMARY\nHIGHLIGHTS"
+      date_and_location_column: "*LOCATION*\n*DATE*"
