@@ -1,0 +1,31 @@
+name: Build RenderCV
+
+on:
+  push:
+    paths:
+      - '**.yaml'
+      - 'pyproject.toml'
+      - 'uv.lock'
+      - '.github/workflows/rendercv.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@7
+
+      - name: Sync deps
+        run: uv sync
+      
+      - name: Render CV
+        run: uv run rendercv render cv.yaml
+
+      - name: Upload output
+        uses: actions/upload-artifact@v6
+        with:
+          name: output
+          path: .
