@@ -9,7 +9,7 @@ new:
     uv run rendercv new "Frank Lin"
 
 watch:
-    watchmedo shell-command \
+    uv run watchmedo shell-command \
         --patterns="*.yaml" \
         --ignore-directories \
         --ignore-patterns=".github/*" \
