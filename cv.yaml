@@ -38,11 +38,14 @@ cv:
 
     Experience:
       - company: Tech@NYU
-        position: Dev Team Lead
+        position: TechTreks Member → Incoming Dev Team Lead
         location: New York, NY
         start_date: 2025
         end_date: present
-        highlights: []
+        highlights: 
+          - "Completed workshops on full-stack development, version control, and team-based engineering workflows"
+          - "Collaborated with peers on guided technical projects, emphasizing code quality and iterative development"
+          - "Selected as 1 of 2 Dev Team Leads for Spring 2026; preparing curriculum and onboarding materials for new members"
 
       - company: Schoolhouse.world
         position: Volunteer SAT Tutor
@@ -82,27 +85,32 @@ cv:
           - "Captained team of 14, organizing lineups, off-season practices, and bonding events"
           - "Mediated conflicts to foster collaboration and sportsmanship"
 
-    Awards:
-      - name: National Merit Scholarship
-        location: National
-        date: "2023"
-        summary: Finalist
+    Projects:
+      - name: Sidequest
+        start_date: 2025-09
+        end_date: 2025-12
 
-      - name: AP Scholar with Distinction
-        location: National
-        date: "2023–2024"
-        summary: Awardee
+    # Awards:
+    #   - name: National Merit Scholarship
+    #     location: National
+    #     date: "2023"
+    #     summary: Finalist
 
-      - name: MTAC Certificate of Merit
-        location: State
-        date: "2023"
-        summary: Panel Finalist
+    #   - name: AP Scholar with Distinction
+    #     location: National
+    #     date: "2023–2024"
+    #     summary: Awardee
+
+    #   - name: MTAC Certificate of Merit
+    #     location: State
+    #     date: "2023"
+    #     summary: Panel Finalist
 
     Technical Skills:
       - label: "Languages"
         details: "Java, Python, TypeScript, JavaScript, Lua, C++"
       - label: "Interests"
-        details: "Piano performance (12yrs classical experience), photography, philosophy, linguistics"
+        details: "Piano performance (13yrs classical experience), photography, philosophy, linguistics"
 
 locale: 
   language: english
