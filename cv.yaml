@@ -17,26 +17,19 @@ cv:
   social_networks:
     - network: LinkedIn
       username: franktbh
+    - network: GitHub
+      username: plasmavolt
 
   sections:
-    Education:
+    education:
       - institution: New York University
         location: New York, NY
         area: Mathematics & Computer Science
         degree: B.A.
-        start_date: 2025-08
         end_date: 2028-05
         summary: 'GPA: 3.75/4.00'
 
-      - institution: Sage Hill School
-        location: Newport Coast, CA
-        area: "Diploma"
-        degree: "High School"
-        start_date: 2021-08
-        end_date: 2025-06
-        summary: "GPA: 3.96/4.00"
-
-    Experience:
+    experience:
       - company: Tech@NYU
         position: TechTreks Member → Incoming Dev Team Lead
         location: New York, NY
@@ -72,23 +65,33 @@ cv:
         start_date: 2023
         end_date: 2024
         highlights:
-          - "Co-authored 3 mathematics competition exams and designed engineering challenge problems"
+          - "Co-authored 3 AMC 8-like math exams and designed engineering challenges"
           - "Coordinated 20+ volunteers and managed logistics for 167 middle school participants"
           - "Streamlined event operations under budget and scheduling constraints"
 
-      - company: Sage Hill Boys’ JV Tennis
-        position: "Captain, #1 Doubles"
-        location: Newport Coast, CA
-        start_date: 2021
-        end_date: 2024
-        highlights:
-          - "Captained team of 14, organizing lineups, off-season practices, and bonding events"
-          - "Mediated conflicts to foster collaboration and sportsmanship"
+      # - company: Sage Hill Boys’ JV Tennis
+      #   position: "Captain, #1 Doubles"
+      #   location: Newport Coast, CA
+      #   start_date: 2021
+      #   end_date: 2024
+      #   highlights:
+      #     - "Captained team of 14, organizing lineups, off-season practices, and bonding events"
+      #     - "Mediated conflicts to foster collaboration and sportsmanship"
 
-    Projects:
+    projects:
       - name: Sidequest
+        stack: Expo, Node.js, MongoDB
         start_date: 2025-09
         end_date: 2025-12
+        summary: A full stack mobile app that suggests challenges to complete around NYC.
+      
+      - name: Conscience AI
+        stack: Python, Flask, JavaScript, HTML, CSS, OpenRouter, ElevenLabs
+        summary: A tiny, relentless accountability coach that keeps you focused.
+
+      - name: Wiki Racer
+        stack: Python, PyTorch, SBERT, NLTK
+        summary: An agent designed to find the shortest path between two Wikipedia pages without brute force using a semantic similarity heuristic.
 
     # Awards:
     #   - name: National Merit Scholarship
@@ -106,11 +109,13 @@ cv:
     #     date: "2023"
     #     summary: Panel Finalist
 
-    Technical Skills:
+    technical_skills:
       - label: "Languages"
         details: "Java, Python, TypeScript, JavaScript, Lua, C++"
+      - label: "Frameworks"
+        details: "React, Expo, Node.js, Flask, PyTorch"
       - label: "Interests"
-        details: "Piano performance (13yrs classical experience), photography, philosophy, linguistics"
+        details: "Piano performance (13yrs classical experience), landscape photography, NYT crosswords"
 
 locale: 
   language: english

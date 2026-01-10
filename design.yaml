@@ -74,6 +74,9 @@ design:
       degree_column: null
       date_and_location_column: "*LOCATION*\n*DATE*"
     normal_entry:
+      main_column: |
+        **NAME** | *STACK*
+        SUMMARY
       date_and_location_column: "*LOCATION*\n*DATE*"
     experience_entry:
       main_column: "**POSITION**\n*COMPANY*\nSUMMARY\nHIGHLIGHTS"
