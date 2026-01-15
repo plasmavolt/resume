@@ -2,6 +2,9 @@
 sync:
     uv sync
 
+lock:
+    uv lock
+
 render:
     uv run rendercv render cv.yaml
 
@@ -11,8 +14,7 @@ new:
 watch:
     uv run watchmedo shell-command \
         --patterns="*.yaml" \
-        --ignore-directories \
-        --ignore-patterns=".github/*" \
         --recursive \
+        --ignore-directories \
         --command='uv run rendercv render cv.yaml' \
         .
