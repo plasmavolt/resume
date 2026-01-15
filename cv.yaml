@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 settings:
-  current_date: '2025-12-29' 
+  current_date: "2025-12-29"
   render_command:
     design: ./design.yaml
     typst_path: output/NAME_IN_SNAKE_CASE_Resume.typ
@@ -27,7 +27,7 @@ cv:
         area: Mathematics & Computer Science
         degree: B.A.
         end_date: 2028-05
-        summary: 'GPA: 3.75/4.00'
+        summary: "GPA: 3.75/4.00"
 
     experience:
       - company: Tech@NYU
@@ -35,7 +35,7 @@ cv:
         location: New York, NY
         start_date: 2025
         end_date: present
-        highlights: 
+        highlights:
           - "Completed workshops on full-stack development, version control, and team-based engineering workflows"
           - "Collaborated with peers on guided technical projects, emphasizing code quality and iterative development"
           - "Selected as 1 of 2 Dev Team Leads for Spring 2026; preparing curriculum and onboarding materials for new members"
@@ -81,13 +81,11 @@ cv:
     projects:
       - name: Sidequest
         stack: Expo, Node.js, MongoDB
-        start_date: 2025-09
-        end_date: 2025-12
-        summary: A full stack mobile app that suggests challenges to complete around NYC.
-      
+        summary: A full stack mobile app that uses LLMs to generate weekly challenges to complete around NYC with your friends.
+
       - name: Conscience AI
         stack: Python, Flask, JavaScript, HTML, CSS, OpenRouter, ElevenLabs
-        summary: A tiny, relentless accountability coach that keeps you focused.
+        summary: A privacy-first, on-device accountability coach that extracts high-level context from screen activity and lightweight webcam attention signals and delivers real-time, LLM-powered voice feedback.
 
       - name: Wiki Racer
         stack: Python, PyTorch, SBERT, NLTK
@@ -117,5 +115,5 @@ cv:
       - label: "Interests"
         details: "Piano performance (13yrs classical experience), landscape photography, NYT crosswords"
 
-locale: 
+locale:
   language: english

@@ -36,16 +36,14 @@ design:
     show_external_link_icon: false
 
   section_titles:
-    type: with_partial_line 
+    type: with_partial_line
     line_thickness: 0.5pt
     space_above: 0.5cm
     space_below: 0.3cm
 
   sections:
     allow_page_break: true
-    space_between_regular_entries: 1em
-    space_between_text_based_entries: 0.3em
-    show_time_spans_in: []
+    space_between_regular_entries: 0.6em
 
   header:
     space_below_name: 0.5cm
@@ -62,9 +60,10 @@ design:
     highlights:
       bullet: "•"
       nested_bullet: "◦"
+    date_and_location_width: 3cm
 
   templates:
-    top_note: ''
+    top_note: ""
     education_entry:
       main_column: |
         **INSTITUTION**
@@ -77,7 +76,6 @@ design:
       main_column: |
         **NAME** | *STACK*
         SUMMARY
-      date_and_location_column: "*LOCATION*\n*DATE*"
     experience_entry:
       main_column: "**POSITION**\n*COMPANY*\nSUMMARY\nHIGHLIGHTS"
       date_and_location_column: "*LOCATION*\n*DATE*"
